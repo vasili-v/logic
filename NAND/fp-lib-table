@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Logic")(type "KiCad")(uri "C:/Users/Vasili_Vasilyeu/Documents/KiCad/9.0/projects/Logic/Logic.pretty")(options "")(descr ""))
+)
