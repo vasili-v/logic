@@ -43,7 +43,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -78,9 +78,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -998,6 +998,7 @@
 		(property "Reference" "J2"
 			(at 0 2.33 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "7b6861aa-c00f-4dc0-8fb7-1728994ee65e")
 			(effects
 				(font
@@ -1209,6 +1210,7 @@
 		(property "Reference" "J1"
 			(at 0 2.33 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d07c3161-2e10-41fc-ac85-4a8df5dd5b39")
 			(effects
 				(font
